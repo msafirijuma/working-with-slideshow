@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Slideshow / Carousel</title>
+  </head>
+  <body>
+    <h2 class="title">Slideshow</h2>
+    <div class="slides-container">
+      <div class="slides">
+        <img src="images/aiyana-beach.jpg" alt="">
+      </div>
+      <div class="slides">
+        <img src="images/aiyana-night-view.jpg" alt="">
+      </div>
+      <div class="slides">
+        <img src="images/zuri-zanzibar-ocean-front-villa.jpg" alt="">
+      </div>
+      <div class="slides">
+        <img src="images/zuri-zanzibar-accomodation.jpg" alt="">
+      </div>
+      <!-- Next and preview btn -->
+      <button class="prev" onclick="controlSlide(-1)">&#10094</button>
+      <button class="next" onclick="controlSlide(1)">&#10095</button>
+    </div>
+
+    <h2 class="title">Auto Slideshow</h2>
+    <div class="slides-container">
+        <div class="myslides">
+            <img src="images/aiyana-resort.jpg" alt="">
+        </div>
+        <div class="myslides">
+            <img src="images/aiyana-sitting-area.jfif" alt="">
+        </div>
+        <div class="myslides">
+            <img src="images/aiyana-night.jpg" alt="">
+        </div>
+        <div class="myslides">
+            <img src="images/essque-zalu-zanzibar.jpg" alt="">
+        </div>
+        <div class="myslides">
+            <img src="images/zuri-villas.jpg" alt="">
+        </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>

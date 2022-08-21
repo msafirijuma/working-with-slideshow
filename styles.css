@@ -1,0 +1,46 @@
+body {
+    position: relative;
+}
+
+.title {
+    font-size: 35px;
+    text-align: center;
+    position: relative;
+}
+
+.slides-container {
+    max-width: 1000px;
+    margin: auto;
+    position: relative;
+}
+
+.slides, .myslides {
+    width: 100%;
+    display: none;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: auto;
+    font-size: 25px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.prev {
+    left: 2px;
+}
+.next {
+    right: 2px;
+}
